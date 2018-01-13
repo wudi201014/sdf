@@ -1,0 +1,18 @@
+#T#store;nominal;Simulate_store;test/posix_store.ptu
+#VA#store->commande;0;0
+#VA#store->stock;0;0
+[New Thread 0x7ffff77f6700 (LWP 4458)]
+[New Thread 0x7ffff6ff5700 (LWP 4459)]
+[New Thread 0x7ffff67f4700 (LWP 4460)]
+[New Thread 0x7ffff5ff3700 (LWP 4461)]
+[New Thread 0x7ffff57f2700 (LWP 4462)]
+[New Thread 0x7ffff4ff1700 (LWP 4463)]
+[Thread 0x7ffff77f6700 (LWP 4458) exited]
+[Thread 0x7ffff4ff1700 (LWP 4463) exited]
+[Thread 0x7ffff5ff3700 (LWP 4461) exited]
+[Thread 0x7ffff67f4700 (LWP 4460) exited]
+[Thread 0x7ffff57f2700 (LWP 4462) exited]
+[Thread 0x7ffff6ff5700 (LWP 4459) exited]
+0
+#VO# store->commande;21;4;0;
+#VO# store->stock;22;4;0;

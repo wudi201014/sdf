@@ -1,0 +1,27 @@
+ENTETE test, , 
+
+##include "counter.h"
+##include "kerosene.h"
+DEBUT
+
+SERVICE math
+    -- Declarations des parametres du service
+    #int v;
+    #int br;
+    #int k;
+    #int res;
+    TEST petit
+    FAMILLE nominal
+		ELEMENT
+			VAR res,		init = 0 ,		va = 2
+			VAR v 	, init = 2 ,va = 2
+			VAR br  , init = 0 ,va = 0
+			VAR k	, init = 4 ,va = 4
+    		# res = kerosene(v,br,k);
+    	FIN ELEMENT
+    FIN TEST
+
+
+
+
+FIN SERVICE

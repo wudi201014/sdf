@@ -1,0 +1,5 @@
+#T#math;nominal;Nombre;test/stat.ptu
+#VA#mean;10;10
+#VA#res;100;100
+#VO# mean;16;9;0;
+#VO# res;17;4;0;

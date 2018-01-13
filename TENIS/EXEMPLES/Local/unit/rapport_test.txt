@@ -1,0 +1,95 @@
+AUTO GEN HEADER TO DO
+
+.--------------------------------------------------------.
+|                     DESCRIPTIF                         |
+.--------------------------------------------------------.
+
+----------------------------------------------------------
+| SERVICE=math        FAMILLE=nominal
+| TEST=Maximum_1
+| location=test/stat.ptu
+----------------------------------------------------------
+  o x  ligne:16  colonne:4
+    RESULTAT = OK
+    VA = 5
+    VO = 5
+
+  o y  ligne:17  colonne:4
+    RESULTAT = OK
+    VA = 10
+    VO = 10
+
+  o res  ligne:18  colonne:4
+    RESULTAT = OK
+    VA = 10
+    VO = 10
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=math        FAMILLE=nominal
+| TEST=Maximum_2
+| location=test/stat.ptu
+----------------------------------------------------------
+  o x  ligne:26  colonne:4
+    RESULTAT = OK
+    VA = 100
+    VO = 100
+
+  o y  ligne:27  colonne:4
+    RESULTAT = OK
+    VA = 10
+    VO = 10
+
+  o res  ligne:28  colonne:4
+    RESULTAT = OK
+    VA = 100
+    VO = 100
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=math        FAMILLE=nominal
+| TEST=Valeur_milieu_1
+| location=test/stat.ptu
+----------------------------------------------------------
+  o x  ligne:36  colonne:4
+    RESULTAT = OK
+    VA = 5
+    VO = 5
+
+  o y  ligne:37  colonne:4
+    RESULTAT = OK
+    VA = 10
+    VO = 10
+
+  o z  ligne:38  colonne:4
+    RESULTAT = OK
+    VA = 12
+    VO = 12
+
+  o res  ligne:39  colonne:4
+    RESULTAT = OK
+    VA = 10
+    VO = 10
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+.--------------------------------------------------------.
+|                       RESUME                           |
+.--------------------------------------------------------.
+
+Date: Fri Jan 12 16:56:55 2018
+Nombre de test(s) exécuté(s):3
+
+Test OK:
+-> Maximum_1
+-> Maximum_2
+-> Valeur_milieu_1
+
+Test KO:

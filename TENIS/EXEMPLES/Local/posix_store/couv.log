@@ -1,0 +1,34 @@
+Go backward to insn number 0
+#0  simulate_store (store=0x602088 <store>) at src/store.c:100
+100	int simulate_store(store_t *store){
+101	   int i = 0;
+102	   int ret = 0;
+107	         ret = pthread_create (
+113	         if (! ret)
+116	            for (i = 0; i < NB_CLIENTS; i++)
+118	               ret = pthread_create (
+116	            for (i = 0; i < NB_CLIENTS; i++)
+118	               ret = pthread_create (
+116	            for (i = 0; i < NB_CLIENTS; i++)
+118	               ret = pthread_create (
+116	            for (i = 0; i < NB_CLIENTS; i++)
+118	               ret = pthread_create (
+116	            for (i = 0; i < NB_CLIENTS; i++)
+118	               ret = pthread_create (
+116	            for (i = 0; i < NB_CLIENTS; i++)
+126	         i = 0;
+127	         for (i = 0; i < NB_CLIENTS; i++)
+129	            pthread_join (store->thread_clients [i], NULL);
+127	         for (i = 0; i < NB_CLIENTS; i++)
+129	            pthread_join (store->thread_clients [i], NULL);
+127	         for (i = 0; i < NB_CLIENTS; i++)
+129	            pthread_join (store->thread_clients [i], NULL);
+127	         for (i = 0; i < NB_CLIENTS; i++)
+129	            pthread_join (store->thread_clients [i], NULL);
+127	         for (i = 0; i < NB_CLIENTS; i++)
+129	            pthread_join (store->thread_clients [i], NULL);
+127	         for (i = 0; i < NB_CLIENTS; i++)
+131	         pthread_join (store->thread_store, NULL);
+134	         return EXIT_SUCCESS;
+135	      }
+Process record is stopped and all execution logs are deleted.

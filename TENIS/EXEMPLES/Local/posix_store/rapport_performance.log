@@ -1,0 +1,11 @@
+  o  Execution binaire seul             :   1.643791798
+
+  o  TENIS sans couverture              :   .005040698
+     Execution sous GDB                 :   2.380253068
+     TENIS_POST_PRO sans couverture     :   .002706795
+     Total                              :   2.388000561
+
+  o  TENIS avec couverture              :   22.495829477
+     Execution sous GDB                 :   3.791508971
+     TENIS_POST_PRO avec couverture     :   4.582695099
+     Total                              :   30.870033547

@@ -1,0 +1,26 @@
+#T#math;nominal;Maximum_1;test/stat.ptu
+#VA#x;5;5
+#VA#y;10;10
+#VA#res;10;10
+10
+#VO# x;16;4;5;
+#VO# y;17;4;10;
+#VO# res;18;4;10;
+#T#math;nominal;Maximum_2;test/stat.ptu
+#VA#x;100;100
+#VA#y;10;10
+#VA#res;100;100
+100
+#VO# x;26;4;100;
+#VO# y;27;4;10;
+#VO# res;28;4;100;
+#T#math;nominal;Valeur_milieu_1;test/stat.ptu
+#VA#x;5;5
+#VA#y;10;10
+#VA#z;12;12
+#VA#res;10;10
+10
+#VO# x;36;4;5;
+#VO# y;37;4;10;
+#VO# z;38;4;12;
+#VO# res;39;4;10;

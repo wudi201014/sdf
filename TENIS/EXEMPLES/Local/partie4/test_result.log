@@ -1,0 +1,10 @@
+#T#math;nominal;petit;test/stat.ptu
+#VA#res;2;2
+#VA#v;2;2
+#VA#br;0;0
+#VA#k;4;4
+3
+#VO# res;15;4;3;
+#VO# v;16;4;2;
+#VO# br;17;4;0;
+#VO# k;18;4;4;

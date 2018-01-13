@@ -1,0 +1,31 @@
+ENTETE test, , 
+
+##include "counter.h"
+
+DEBUT
+
+SERVICE math
+    -- Declarations des parametres du service
+    #int x;
+    #int res;
+
+    TEST remis
+    FAMILLE nominal
+		ELEMENT
+            VAR x,		init = 5 ,		va = 5
+			VAR res,		init = 0 ,		va = 7
+    		#res = set_counter(x);
+    	FIN ELEMENT
+    FIN TEST
+
+    TEST incrementer
+    FAMILLE nominal
+		ELEMENT
+            VAR x,		init = 252 ,		va = 252
+			VAR res,		init = 0 ,		va = 0
+    		#res = set_counter(x);
+    	FIN ELEMENT
+    FIN TEST
+
+
+FIN SERVICE

@@ -1,0 +1,34 @@
+                     -------------------------------
+                    | ~ EXEMPLE UTILISATION TENIS ~ |
+                    |   Test sans instrumentation   |
+                     -------------------------------
+
+Explication:
+------------
+
+  Exemple d'un test multitache avec la suite de test TENIS.
+  Le fichier RESUME est un simple fichier de log.
+  Il n'est pas neccessaire à l'utilisateur.
+
+Execution:
+----------
+
+  L'exemple se lance grâce au script de lancement de test: launch_test.
+  Ce script doit être lancé avec un argument.
+  1) NO_TEST: binaire sans aucuns tests.
+  2) NO_COUV: test en utilisant TENIS sans couverture de code.
+  3) COUV_store.c: test avec couverture de code de src/store.c.
+  4) CLEAN: supprime fichiers générés par TENIS.
+
+Pré-requis:
+-----------
+
+  Voir les pré-requis de TENIS.
+  Utilisation d'une version de gdb > 7.0.
+  
+
+Support:
+--------
+
+  Benjamin Lancinot.
+  Tahiry Ratsiambahotra.

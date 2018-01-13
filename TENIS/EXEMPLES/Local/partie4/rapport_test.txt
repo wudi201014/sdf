@@ -1,0 +1,45 @@
+AUTO GEN HEADER TO DO
+
+.--------------------------------------------------------.
+|                     DESCRIPTIF                         |
+.--------------------------------------------------------.
+
+----------------------------------------------------------
+| SERVICE=math        FAMILLE=nominal
+| TEST=petit
+| location=test/stat.ptu
+----------------------------------------------------------
+  o res  ligne:15  colonne:4
+    RESULTAT = KO
+    VA = 2
+    VO = 3
+
+  o v  ligne:16  colonne:4
+    RESULTAT = OK
+    VA = 2
+    VO = 2
+
+  o br  ligne:17  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+  o k  ligne:18  colonne:4
+    RESULTAT = OK
+    VA = 4
+    VO = 4
+
+----------------------------------------------------------
+| RESULTAT=KO   (75.00% des variables sont OK)
+----------------------------------------------------------
+.--------------------------------------------------------.
+|                       RESUME                           |
+.--------------------------------------------------------.
+
+Date: Fri Jan 12 10:08:26 2018
+Nombre de test(s) exécuté(s):1
+
+Test OK:
+
+Test KO:
+-> petit

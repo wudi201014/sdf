@@ -1,0 +1,45 @@
+ENTETE test, , 
+
+##include "math.h"
+
+DEBUT
+
+SERVICE math
+    -- Declarations des parametres du service
+    #int x;
+    #int y;
+    #int z;
+    #int res;
+
+    TEST Maximum_1
+    FAMILLE nominal
+		ELEMENT
+            VAR x,		init = 5 ,		va = 5
+            VAR y,		init = 10 ,		va = 10
+			VAR res,		init = 0 ,		va = 10
+    		#res = maximum(x,y);
+    	FIN ELEMENT
+    FIN TEST
+
+    TEST Maximum_2
+    FAMILLE nominal
+		ELEMENT
+            VAR x,		init = 100 ,		va = 100
+            VAR y,		init = 10 ,		va = 10
+			VAR res,		init = 0 ,		va = 100
+    		#res = maximum(x,y);
+    	FIN ELEMENT
+    FIN TEST
+
+    TEST Valeur_milieu_1
+    FAMILLE nominal
+		ELEMENT
+            VAR x,		init = 5,		va = 5
+            VAR y,		init = 10 ,		va = 10
+			VAR z,		init = 12 ,		va = 12
+            VAR res,		init =0 ,		va =10
+            #res = valeur_milieu(x,y,z);
+    	FIN ELEMENT
+    FIN TEST
+
+FIN SERVICE

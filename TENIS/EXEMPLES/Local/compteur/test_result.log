@@ -1,0 +1,12 @@
+#T#math;nominal;remis;test/stat.ptu
+#VA#x;5;5
+#VA#res;7;7
+6
+#VO# x;14;4;5;
+#VO# res;15;4;6;
+#T#math;nominal;incrementer;test/stat.ptu
+#VA#x;252;252
+#VA#res;0;0
+253
+#VO# x;23;4;252;
+#VO# res;24;4;253;

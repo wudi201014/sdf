@@ -1,0 +1,35 @@
+                     -------------------------------
+                    | ~ EXEMPLE UTILISATION TENIS ~ |
+                    |   Test sans instrumentation   |
+                     -------------------------------
+
+Explication:
+------------
+
+  Exemple d'un simple test unitaire avec la suite de test TENIS.
+  Le fichier RESUME est un simple fichier de log.
+  Il n'est pas neccessaire à l'utilisateur.
+
+Execution:
+----------
+
+  L'exemple se lance grâce au script de lancement de test: launch_test.
+  Ce script doit être lancé avec un argument.
+  1) NO_TEST: binaire sans aucuns tests.
+  2) NO_COUV: test en utilisant TENIS sans couverture de code.
+  3) COUV_stat.c: test avec couverture de code de src/stat.c.
+  4) COUV_math.c: test avec couverture de code de src/math.c.
+  5) CLEAN: supprime fichiers générés par TENIS.
+
+Pré-requis:
+-----------
+
+  Voir les pré-requis de TENIS.
+  Utilisation d'une version de gdb > 7.0.
+  TENIS doit être compiler avec l'option -DNOT_IN_SIMUGENE.
+
+Support:
+--------
+
+  Benjamin Lancinot.
+  Tahiry Ratsiambahotra.

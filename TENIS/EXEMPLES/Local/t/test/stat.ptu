@@ -1,0 +1,23 @@
+ENTETE test, , 
+
+##include "counter.h"
+##include "triangle.h"
+DEBUT
+
+SERVICE math
+    -- Declarations des parametres du service
+    #int a=2;
+    #int b=3;
+    #int c=3;
+    #int res;
+    TEST petit
+    FAMILLE nominal
+		ELEMENT
+			VAR res,		init = 0 ,		va = 3
+			VAR a , init = 3 ,va = 3
+			VAR b , init = 3 ,va = 3
+			VAR c , init = 3 ,va = 3
+    		# res = triangle_petit_cote(a,b,c);
+    	FIN ELEMENT
+    FIN TEST
+FIN SERVICE

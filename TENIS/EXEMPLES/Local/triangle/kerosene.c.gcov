@@ -1,0 +1,24 @@
+        -:    0:Source:src/kerosene.c
+        -:    0:Programs:1
+        -:    1:#include "kerosene.i"
+        -:    2:int LG=1;
+function kerosene called 0 returned 0% blocks executed 0%
+    #####:    3:int kerosene(int v, int br, int k) {
+    #####:    4:if (v>1 || br==0) {
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:    5:k=k/v;
+        -:    6:}
+    #####:    7:if (v==2 || k>1) {
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:    8:k=k+1;
+    #####:    9:LG= 0;
+        -:   10:}
+    #####:   11:return k;
+        -:   12:}
+        -:   13:

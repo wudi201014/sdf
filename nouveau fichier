@@ -1,0 +1,21 @@
+couverture struc : 
+couverture instruction
+couverture decision  :  tous les cas if else
+couverture condition :  tous les condition f/t
+
+st : bug toujour VO = 0
+st : bug tenis pour option couv math
+
+100% ins = 2 0 2  (avec fault)
+
+pas possible de trouver erreur k>1 => k<1
+
+100% ins => erreur &&|| + corriger erreur decision => 100% mais erreur k 
+.. si 1ere condition verifier, le 2eme elle ne regard pas   
+=> 4 cas test de condition 
+condition  :  
+ 
+
+ratsiamb@insa-toulouse.fr
+
+

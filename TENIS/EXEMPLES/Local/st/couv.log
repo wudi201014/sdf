@@ -1,0 +1,30 @@
+Go backward to insn number 0
+#0  Calc_Sum_Mean (Array=0x2f2f2f2f2f2f2f2f, Sum=0x2f2f2f2f2f2f2f2f, Mean=0x0) at src/stat.c:13
+13	{
+16	        if(Array){
+17	                *Sum = 0;
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+19	                        *Sum += Array[i];
+18	                for (i = 0; i < 10; i++)
+20	                if (*Sum == 0){
+21	                        *Mean = 0;
+38	}
+Process record is stopped and all execution logs are deleted.

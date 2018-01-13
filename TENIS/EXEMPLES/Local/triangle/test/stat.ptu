@@ -1,0 +1,23 @@
+ENTETE test, , 
+
+##include "math.h"
+##include "stat.h"
+
+#int x[10];
+#int res;
+#int mean=2;
+DEBUT
+
+SERVICE math
+    -- Declarations des parametres du service
+    TEST Nombre
+    FAMILLE nominal
+		ELEMENT
+			TAB x[0..9],init={10,10,10,10,10,10,10,10,10,10} ,va = {10,10,10,10,10,10,10,10,10,10}
+			VAR mean, init = 1,		va = 10
+			#Calc_Sum_Mean(x,&res,&mean);
+			    	
+		FIN ELEMENT
+    FIN TEST
+
+FIN SERVICE

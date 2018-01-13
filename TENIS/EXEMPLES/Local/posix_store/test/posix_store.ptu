@@ -1,0 +1,30 @@
+ENTETE posix_client_test, , 
+
+##include "store.h"
+
+DEBUT
+
+INITIALISATION
+
+    #store_t *store;
+    #init_store(&store,0,0);
+
+FIN INITIALISATION
+
+SERVICE store
+
+--------------------------------------------------------
+
+    TEST Simulate_store
+    FAMILLE nominal
+
+		ELEMENT
+			VAR store->commande,		init = 5 ,		va = 0
+            VAR store->stock,		init = 20 ,		va = 0
+    		#simulate_store(store);
+    	FIN ELEMENT
+    FIN TEST -- Simulate_store
+
+--------------------------------------------------------
+
+FIN SERVICE

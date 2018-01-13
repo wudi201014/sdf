@@ -1,0 +1,29 @@
+List of file
+- main.c
+- stat.c
+- stat.h
+- stat.ptu
+
+Sources code available at :
+http://www.mrtc.mdh.se/projects/wcet/wcet_bench/st/
+
+
+CHANGE LOG :
+
+* 2016/06/20, Benjamin Lancinot
+Changes:
+  - modify structure of code for TENIS uses.
+  - add header file for functions.
+  - add Test RTRT + RESUME file + Makefile.
+
+* 2012/09/28, Jan Gustafsson <jan.gustafsson@mdh.se>
+Changes:
+  - time is only enabled if the POUT flag is set
+  - st.c:30:1:  main () warning: type specifier missing, defaults to 'int': fixed
+
+* 2011/10/18, Benedikt Huber <benedikt@vmars.tuwien.ac.at>
+Changes:
+  - Measurement and Printing the Results is only enabled if the POUT flag is set
+  - Added Prototypes for InitSeed and RandomInteger
+  - Changed return type of InitSeed from 'missing (default int)' to 'void'
+
